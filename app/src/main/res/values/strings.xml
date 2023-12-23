@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hw3</string>
+    <string name="Input_text">Принятый текст:</string>
+    <string name="Enter_text">Введите текст</string>
+    <string name="Send_text">Отправить текст</string>
+    <string name="Dial_number">Введите номер телефона</string>
+    <string name="Call">Позвонить</string>
+</resources>

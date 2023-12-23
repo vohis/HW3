@@ -1,0 +1,44 @@
+<!-- res/layout/activity_main.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/Enter_text"
+        android:autofillHints=""
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/sendTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextText"
+        android:layout_marginTop="16dp"
+        android:text="@string/Send_text"/>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sendTextButton"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"
+        android:hint="@string/Dial_number"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/dialNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber"
+        android:layout_marginTop="16dp"
+        android:text="@string/Call"/>
+
+</RelativeLayout>
